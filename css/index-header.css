@@ -1,0 +1,31 @@
+.header-nav {
+    background-color: var(--background-color);
+    padding: 5px;
+}
+
+.header-nav__logo {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header-banner__h1 {
+    font-size: 56px;
+}
+
+.header-nav__menu-item {
+    text-decoration: none;
+    display: block;
+    color: var(--main-text-color);
+}
+
+.header-nav__menu-item:hover {
+    text-decoration: underline;
+}
+
+.header-banner {
+    background-image: url(../img/baby-yoda.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 400px;
+}
